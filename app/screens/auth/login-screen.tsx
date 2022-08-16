@@ -137,7 +137,7 @@ export const LoginScreen = observer(function LoginScreen() {
                                 <Text style={styles.forgotPasswordText}>forgot your password?</Text>
                             </TouchableOpacity>
                             {/* <MButton text='log in' onPress={submit}/> */}
-                            <MButton text='log in' onPress={() => goToPage('loading')}/>
+                            <MButton text='log in' onPress={submit}/>
                             <TouchableOpacity style={styles.forgotPasswordWrapper}>
                                 <Text style={{marginBottom: 4}}>don't have an account?</Text>
                                 <Text style={styles.signUpText}>sign up</Text>
@@ -178,7 +178,7 @@ export const LoginScreen = observer(function LoginScreen() {
                 // if(!user?.Is_Mobile_App_User && user?.Is_Web_App_User){
                 //     setRegiste_mobile(true)
                 // }
-                goToPage('loading');
+                goToPage('dashboardScreen');
             };
             const errorCallback = (e) => {
                 setLoading(false);

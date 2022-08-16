@@ -36,10 +36,10 @@
    primaryStack: undefined
    loading: undefined
    LoginScreen: undefined
-  //  dashboardScreen: undefined
-  //  dispatchInformation: undefined
-  //  maintenanceInformation: undefined
-  //  depreciationInfomation: undefined
+   dashboardScreen: undefined
+   dispatchInformation: undefined
+   maintenanceInformation: undefined
+   depreciationInfomation: undefined
    // ForgotPasswordScreen: undefined
    // VerifyTokenScreen: undefined
    // ResetPasswordScreen: undefined
@@ -78,10 +78,10 @@
          <Stack.Screen name="primaryStack" component={PrimaryNavigator}/>
          <Stack.Screen name="loading" component={AuthLoadingScreen}/>
          <Stack.Screen name="LoginScreen" component={LoginScreen}/>
-         {/* <Stack.Screen name="dashboardScreen" component={DashboardScreen}/>
+         <Stack.Screen name="dashboardScreen" component={DashboardScreen}/>
          <Stack.Screen name="dispatchInformation" component={DispatchInformation}/>
          <Stack.Screen name="maintenanceInformation" component={MaintenanceInformation}/>
-         <Stack.Screen name="depreciationInfomation" component={DepreciationInfomation}/> */}
+         <Stack.Screen name="depreciationInfomation" component={DepreciationInfomation}/>
          {/* <Stack.Screen name="ForgotPasswordScreen" component={ForgotPasswordScreen}/> */}
          {/* <Stack.Screen name="VerifyTokenScreen" component={VerifyTokenScreen}/> */}
          {/* <Stack.Screen name="ResetPasswordScreen" component={ResetPasswordScreen}/> */}
